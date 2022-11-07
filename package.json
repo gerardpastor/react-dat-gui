@@ -1,0 +1,35 @@
+{
+  "name": "react-dat-gui",
+  "version": "1.0.0",
+  "description": "React version of dat.gui",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc && copyup src/dat.gui.css lib"
+  },
+  "keywords": [
+    "react",
+    "dat.gui"
+  ],
+  "author": "Gerard Pastor",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.188",
+    "@types/node": "12.0.2",
+    "@types/react": "^18.0.25",
+    "classnames": "^2.3.2",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "use-local-storage-state": "^18.1.1"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "8.1.0",
+    "typescript": "^4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerardpastor/react-dat-gui.git"
+  }
+}
